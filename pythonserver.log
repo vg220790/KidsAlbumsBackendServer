@@ -1,0 +1,1552 @@
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-01-06 20:40:59
+INFO:root:############  Attempting pull images from Dropbox:
+INFO:root:source path: /Photos_Before_Processing/
+INFO:root:destination path: /home/victoria/original_project/PythonServer/before_images/
+INFO:dropbox:Request to files/list_folder
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/list_folder HTTP/1.1" 200 None
+INFO:root:There are no files to download from Dropbox
+INFO:root:######################## Session finished at 2019-01-06 20:41:00
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-01-06 20:42:16
+INFO:root:############Attempting push images to Dropbox:
+INFO:root:source path: /home/victoria/original_project/PythonServer/after_images/
+INFO:root:destination path: /Photos_Before_Processing/
+INFO:root:######## Starting upload of 2 files :
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 1 out of 2
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 2 out of 2
+INFO:root:######################## Session finished at 2019-01-06 20:43:33
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-01-06 20:47:15
+INFO:root:############Attempting push images to Dropbox:
+INFO:root:source path: /home/victoria/original_project/PythonServer/after_images/
+INFO:root:destination path: /Photos_Before_Processing/
+INFO:root:######## Starting upload of 26 files :
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 1 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 2 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 3 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 4 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 5 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 6 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 7 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 8 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 9 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 10 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 11 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 12 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 13 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 14 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 15 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 16 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 17 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 18 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 19 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 20 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 21 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 22 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 23 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 24 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 25 out of 26
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 26 out of 26
+INFO:root:######################## Session finished at 2019-01-06 20:58:21
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-01-07 20:20:44
+INFO:root:############Attempting push images to Dropbox:
+INFO:root:source path: /home/victoria/original_project/PythonServer/after_images/
+INFO:root:destination path: /Photos_Before_Processing/
+INFO:root:######## Starting upload of 24 files :
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 1 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 2 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 3 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 4 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 5 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 6 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 7 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 8 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 9 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 10 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 11 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 12 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 13 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 14 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 15 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 16 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 17 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 18 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 19 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 20 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 21 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 22 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 23 out of 24
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 24 out of 24
+INFO:root:######################## Session finished at 2019-01-07 20:27:50
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-25 15:23:29
+INFO:root:############  Attempting pull images from Dropbox:
+INFO:root:source path: /Photos_Before_Processing/
+INFO:root:destination path: /home/victoria/original_project/PythonServer/before_images/
+INFO:dropbox:Request to files/list_folder
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/list_folder HTTP/1.1" 200 None
+INFO:root:######## Starting download of 8 files :
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3413617
+INFO:root:Successfuly downloaded image 1 out of 8
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3869210
+INFO:root:Successfuly downloaded image 2 out of 8
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3725018
+INFO:root:Successfuly downloaded image 3 out of 8
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3869210
+INFO:root:Successfuly downloaded image 4 out of 8
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 8343595
+INFO:root:Successfuly downloaded image 5 out of 8
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3725018
+INFO:root:Successfuly downloaded image 6 out of 8
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3413617
+INFO:root:Successfuly downloaded image 7 out of 8
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 7610032
+INFO:root:Successfuly downloaded image 8 out of 8
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-25 16:45:46
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 11:58:48
+ERROR:root:Couldn't process image number 0 : 'NoneType' object has no attribute '__getitem__'
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 12:22:51
+INFO:root:######################## Session finished at 2019-06-26 12:28:20
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 12:52:50
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 12:54:34
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 13:24:51
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 14:27:40
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 14:29:05
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 14:32:17
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 14:55:59
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 15:06:01
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 15:06:47
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-26 15:11:46
+INFO:root:noise = 0.4517039165411364
+INFO:root:blur = 16.99763298581086
+INFO:root:exposure = 1
+INFO:root:quality = 0.3557993049121082
+INFO:root:noise = 0.48694766214014135
+INFO:root:blur = 16.343720079594146
+INFO:root:exposure = 1
+INFO:root:quality = 0.3811544991764415
+INFO:root:noise = 0.49151413987629633
+INFO:root:blur = 18.263976571532698
+INFO:root:exposure = 1
+INFO:root:quality = 0.3844397663310758
+INFO:root:noise = 0.5504193447495344
+INFO:root:blur = 30.026402133980376
+INFO:root:exposure = 1
+INFO:root:quality = 0.4268176169831761
+INFO:root:noise = 0.5434338211197447
+INFO:root:blur = 21.51232705778177
+INFO:root:exposure = 1
+INFO:root:quality = 0.42179206019266163
+INFO:root:############Attempting push images to Dropbox:
+INFO:root:source path: /home/victoria/original_project/PythonServer/after_images/
+INFO:root:destination path: https://api.cloudinary.com/v1_1/kids-albums/images_for_albums/
+INFO:root:######## Starting upload of 3 files :
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudinary.com:443
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 1 out of 3
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 2 out of 3
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 642
+INFO:root:Successfuly uploaded image 3 out of 3
+INFO:root:######################## Session finished at 2019-06-26 15:38:08
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-27 00:39:31
+INFO:root:############  Attempting pull images from Dropbox:
+INFO:root:source path: /Photos_Before_Processing/
+INFO:root:destination path: /home/victoria/original_project/PythonServer/before_images/
+INFO:dropbox:Request to files/list_folder
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/list_folder HTTP/1.1" 200 None
+INFO:root:There are no files to download from Dropbox
+INFO:root:######################## Session finished at 2019-06-27 00:39:32
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-27 00:42:57
+INFO:root:############Attempting push images to Dropbox:
+INFO:root:source path: /home/victoria/original_project/PythonServer/dropbox_images_to_add/
+INFO:root:destination path: /Photos_Before_Processing/
+INFO:root:######## Starting upload of 12 files :
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 1 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 2 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 3 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 4 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 5 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 6 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 7 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 8 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 9 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 10 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 11 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 12 out of 12
+INFO:root:######################## Session finished at 2019-06-27 00:46:46
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-27 00:48:42
+INFO:root:############Attempting push images to Dropbox:
+INFO:root:source path: /home/victoria/original_project/PythonServer/dropbox_images_to_add/
+INFO:root:destination path: /Photos_Before_Processing/
+INFO:root:######## Starting upload of 12 files :
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 1 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 2 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 3 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 4 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 5 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 6 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 7 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 8 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 9 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 10 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 11 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 12 out of 12
+INFO:root:######################## Session finished at 2019-06-27 00:52:14
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-27 00:57:29
+INFO:root:############  Attempting pull images from Dropbox:
+INFO:root:source path: /Photos_Before_Processing/
+INFO:root:destination path: /home/victoria/original_project/PythonServer/before_images/
+INFO:dropbox:Request to files/list_folder
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/list_folder HTTP/1.1" 200 None
+INFO:root:######## Starting download of 12 files :
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 4816998
+INFO:root:Successfuly downloaded image 1 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 5111907
+INFO:root:Successfuly downloaded image 2 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 228098
+INFO:root:Successfuly downloaded image 3 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 4915299
+INFO:root:Successfuly downloaded image 4 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 5046371
+INFO:root:Successfuly downloaded image 5 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 5079139
+INFO:root:Successfuly downloaded image 6 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 4522082
+INFO:root:Successfuly downloaded image 7 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 5144675
+INFO:root:Successfuly downloaded image 8 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 4423778
+INFO:root:Successfuly downloaded image 9 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 4587618
+INFO:root:Successfuly downloaded image 10 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 5242981
+INFO:root:Successfuly downloaded image 11 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 5177443
+INFO:root:Successfuly downloaded image 12 out of 12
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:root:######################## Session finished at 2019-06-27 00:58:22
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-27 01:18:06
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-27 02:09:50
+INFO:root:noise = 0.6178792591900438
+INFO:root:blur = 32.91729747561855
+INFO:root:exposure = 1
+INFO:root:quality = 0.4753499295303474
+INFO:root:noise = 0.533176064013957
+INFO:root:blur = 26.551324300245415
+INFO:root:exposure = 1
+INFO:root:quality = 0.4144123790425309
+INFO:root:noise = 0.5631729468351191
+INFO:root:blur = 30.187256182251577
+INFO:root:exposure = 1
+INFO:root:quality = 0.43599287028216394
+INFO:root:noise = 0.5766181887899882
+INFO:root:blur = 28.30671391975188
+INFO:root:exposure = 1
+INFO:root:quality = 0.4456657062206999
+INFO:root:noise = 0.5408935933822799
+INFO:root:blur = 27.422927036599763
+INFO:root:exposure = 1
+INFO:root:quality = 0.4199645584450267
+INFO:root:noise = 0.5995670823973437
+INFO:root:blur = 31.98136269109393
+INFO:root:exposure = 1
+INFO:root:quality = 0.462175701621926
+INFO:root:noise = 0.6646480653348926
+INFO:root:blur = 42.61661053308019
+INFO:root:exposure = 1
+INFO:root:quality = 0.5089965526561405
+INFO:root:noise = 0.6229532348424928
+INFO:root:blur = 30.638061283449133
+INFO:root:exposure = 1
+INFO:root:quality = 0.47900027172633025
+INFO:root:noise = 0.595973006177509
+INFO:root:blur = 28.368775339318343
+INFO:root:exposure = 1
+INFO:root:quality = 0.4595900352764811
+INFO:root:noise = 0.7307702565604423
+INFO:root:blur = 52.20856928828434
+INFO:root:exposure = 1
+INFO:root:quality = 0.5565664744011403
+INFO:root:noise = 0.6424193664282546
+INFO:root:blur = 33.45962256299818
+INFO:root:exposure = 1
+INFO:root:quality = 0.49300468293913335
+INFO:root:noise = 0.6207397553618424
+INFO:root:blur = 30.83685892670891
+INFO:root:exposure = 1
+INFO:root:quality = 0.4774078404452916
+INFO:root:noise = 0.5143200476439151
+INFO:root:blur = 28.863435050764362
+INFO:root:exposure = 1
+INFO:root:quality = 0.40084689964091047
+INFO:root:noise = 0.5823466918174168
+INFO:root:blur = 28.089381862124903
+INFO:root:exposure = 1
+INFO:root:quality = 0.4497869314202244
+INFO:root:noise = 0.5678511566538665
+INFO:root:blur = 25.911274613382222
+INFO:root:exposure = 1
+INFO:root:quality = 0.43935848885403966
+INFO:root:noise = 0.567902287289364
+INFO:root:blur = 29.069163654073453
+INFO:root:exposure = 1
+INFO:root:quality = 0.43939527348657625
+INFO:root:noise = 0.6006077676264157
+INFO:root:blur = 32.47973552744981
+INFO:root:exposure = 1
+INFO:root:quality = 0.46292439603133284
+INFO:root:noise = 0.5277363325151918
+INFO:root:blur = 21.700854463392265
+INFO:root:exposure = 1
+INFO:root:quality = 0.41049890296438046
+INFO:root:noise = 0.5979581483873648
+INFO:root:blur = 35.949182924539805
+INFO:root:exposure = 1
+INFO:root:quality = 0.46101819513993336
+INFO:root:noise = 0.5698688825995134
+INFO:root:blur = 28.727387430579984
+INFO:root:exposure = 1
+INFO:root:quality = 0.44081009025641904
+INFO:root:noise = 0.7183347594758372
+INFO:root:blur = 64.12426232064513
+INFO:root:exposure = 1
+INFO:root:quality = 0.5476200736208489
+INFO:root:noise = 0.6108921109556683
+INFO:root:blur = 35.586295780481464
+INFO:root:exposure = 1
+INFO:root:quality = 0.4703232041818781
+ERROR:root:couldn't measure noise of image
+ERROR:root:couldn't measure blurriness of image
+ERROR:root:couldn't measure exposure of image
+INFO:root:quality = -0.249743062693
+ERROR:root:Couldn't process image number 4 : 
+INFO:root:noise = 0.6035276182502972
+INFO:root:blur = 32.798190581664194
+INFO:root:exposure = 1
+INFO:root:quality = 0.46502500799096114
+INFO:root:noise = 0.5449633961673646
+INFO:root:blur = 24.271348763664573
+INFO:root:exposure = 1
+INFO:root:quality = 0.4228924741042408
+INFO:root:noise = 0.6163828814308832
+INFO:root:blur = 31.25558402192288
+INFO:root:exposure = 1
+INFO:root:quality = 0.4742733987683499
+INFO:root:noise = 0.6322377394466748
+INFO:root:blur = 38.294620549044396
+INFO:root:exposure = 1
+INFO:root:quality = 0.48567977144159535
+INFO:root:noise = 0.6527620986701009
+INFO:root:blur = 36.82380816017995
+INFO:root:exposure = 1
+INFO:root:quality = 0.5004454975016142
+INFO:root:noise = 0.6973261039325562
+INFO:root:blur = 45.69071579936427
+INFO:root:exposure = 1
+INFO:root:quality = 0.5325059329422295
+INFO:root:noise = 0.603438687128427
+INFO:root:blur = 29.396128158312102
+INFO:root:exposure = 1
+INFO:root:quality = 0.4649610287665079
+INFO:root:noise = 0.6658257396125414
+INFO:root:blur = 38.51397490427602
+INFO:root:exposure = 1
+INFO:root:quality = 0.5098438003379023
+INFO:root:noise = 0.625047977570932
+INFO:root:blur = 31.777305932239415
+INFO:root:exposure = 1
+INFO:root:quality = 0.4805072808834987
+INFO:root:noise = 0.6622115104373841
+INFO:root:blur = 36.000794916924264
+INFO:root:exposure = 1
+INFO:root:quality = 0.5072436354636881
+INFO:root:noise = 0.5999938478510207
+INFO:root:blur = 30.070252671877046
+INFO:root:exposure = 1
+INFO:root:quality = 0.46248272712813
+INFO:root:noise = 0.5818532506722092
+INFO:root:blur = 29.608171532127606
+INFO:root:exposure = 1
+INFO:root:quality = 0.44943193779083024
+INFO:root:noise = 0.6226952195512493
+INFO:root:blur = 40.65002807334515
+INFO:root:exposure = 1
+INFO:root:quality = 0.4788146492146706
+INFO:root:noise = 0.6198400230803272
+INFO:root:blur = 36.796415825917556
+INFO:root:exposure = 1
+INFO:root:quality = 0.476760551034151
+INFO:root:noise = 0.5190273936318501
+INFO:root:blur = 22.394539320169788
+INFO:root:exposure = 1
+INFO:root:quality = 0.4042334793987655
+INFO:root:noise = 0.5559309905577485
+INFO:root:blur = 29.503386847346036
+INFO:root:exposure = 1
+INFO:root:quality = 0.43078282979480964
+ERROR:root:couldn't measure noise of image
+ERROR:root:couldn't measure blurriness of image
+ERROR:root:couldn't measure exposure of image
+INFO:root:quality = -0.249743062693
+ERROR:root:Couldn't process image number 7 : 
+INFO:root:noise = 0.6223727402425412
+INFO:root:blur = 32.09852252966369
+INFO:root:exposure = 1
+INFO:root:quality = 0.47858264971199677
+INFO:root:noise = 0.5982902978909341
+INFO:root:blur = 29.439649378054874
+INFO:root:exposure = 1
+INFO:root:quality = 0.46125715161723674
+INFO:root:noise = 0.6250038447766632
+INFO:root:blur = 30.947035064735385
+INFO:root:exposure = 1
+INFO:root:quality = 0.4804755306717837
+INFO:root:noise = 0.562007552590259
+INFO:root:blur = 26.445437866086863
+INFO:root:exposure = 1
+INFO:root:quality = 0.4351544571547716
+INFO:root:noise = 0.6175613962204092
+INFO:root:blur = 33.398185188798905
+INFO:root:exposure = 1
+INFO:root:quality = 0.4751212511349277
+INFO:root:noise = 0.6577269187938793
+INFO:root:blur = 34.4568002498114
+INFO:root:exposure = 1
+INFO:root:quality = 0.504017310540303
+INFO:root:noise = 0.6261643749957816
+INFO:root:blur = 34.139733945556586
+INFO:root:exposure = 1
+INFO:root:quality = 0.481310444498506
+INFO:root:noise = 0.5763848512630668
+INFO:root:blur = 29.634068276786266
+INFO:root:exposure = 1
+INFO:root:quality = 0.4454978374964853
+INFO:root:noise = 0.6497205862244019
+INFO:root:blur = 36.45303637453905
+INFO:root:exposure = 1
+INFO:root:quality = 0.4982573590514707
+INFO:root:noise = 0.5513165014104896
+INFO:root:blur = 30.377403131938262
+INFO:root:exposure = 1
+INFO:root:quality = 0.4274630534299196
+INFO:root:noise = 0.5372923956035179
+INFO:root:blur = 25.009943530325927
+INFO:root:exposure = 1
+INFO:root:quality = 0.417373768670046
+INFO:root:noise = 0.5482702817065163
+INFO:root:blur = 28.35804757454119
+INFO:root:exposure = 1
+INFO:root:quality = 0.42527152846282623
+INFO:root:noise = 0.5220511754493757
+INFO:root:blur = 26.438290847201532
+INFO:root:exposure = 1
+INFO:root:quality = 0.40640886208944255
+INFO:root:noise = 0.5590470023573655
+INFO:root:blur = 27.87585860975245
+INFO:root:exposure = 1
+INFO:root:quality = 0.43302456490213465
+INFO:root:noise = 0.5964956748959283
+INFO:root:blur = 42.906210408000305
+INFO:root:exposure = 1
+INFO:root:quality = 0.45996605593746115
+INFO:root:noise = 0.6246076241564795
+INFO:root:blur = 35.03051158543913
+INFO:root:exposure = 1
+INFO:root:quality = 0.480190479865915
+INFO:root:noise = 0.6384093984466038
+INFO:root:blur = 48.48809961701031
+INFO:root:exposure = 1
+INFO:root:quality = 0.4901198138875875
+INFO:root:noise = 0.534484290108211
+INFO:root:blur = 26.01868891036356
+INFO:root:exposure = 1
+INFO:root:quality = 0.415353548893506
+INFO:root:noise = 0.6296232327226029
+INFO:root:blur = 38.37206179608204
+INFO:root:exposure = 1
+INFO:root:quality = 0.4837988313523351
+ERROR:root:couldn't measure noise of image
+ERROR:root:couldn't measure blurriness of image
+ERROR:root:couldn't measure exposure of image
+INFO:root:quality = -0.249743062693
+ERROR:root:Couldn't process image number 11 : 
+INFO:root:######################## Session finished at 2019-06-27 03:42:35
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-27 03:43:21
+INFO:root:############Attempting push images to Dropbox:
+INFO:root:source path: /home/victoria/original_project/PythonServer/after_images/
+INFO:root:destination path: https://api.cloudinary.com/v1_1/kids-albums/images_for_albums/
+INFO:root:######## Starting upload of 9 files :
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudinary.com:443
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 642
+INFO:root:Successfuly uploaded image 1 out of 9
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 642
+INFO:root:Successfuly uploaded image 2 out of 9
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 676
+INFO:root:Successfuly uploaded image 3 out of 9
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 642
+INFO:root:Successfuly uploaded image 4 out of 9
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 642
+INFO:root:Successfuly uploaded image 5 out of 9
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 661
+INFO:root:Successfuly uploaded image 6 out of 9
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 7 out of 9
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 661
+INFO:root:Successfuly uploaded image 8 out of 9
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 642
+INFO:root:Successfuly uploaded image 9 out of 9
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-28 21:03:57
+INFO:root:############Attempting push images to Dropbox:
+INFO:root:source path: /home/victoria/original_project/PythonServer/dropbox_images_to_add/
+INFO:root:destination path: /Photos_Before_Processing/
+INFO:root:######## Starting upload of 12 files :
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 1 out of 12
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_metadata
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_metadata HTTP/1.1" 200 None
+INFO:dropbox:Request to files/get_temporary_link
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/get_temporary_link HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 2 out of 12
+INFO:dropbox:Request to files/upload
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-28 21:05:30
+INFO:root:############  Attempting pull images from Dropbox:
+INFO:root:source path: /Photos_Before_Processing/
+INFO:root:destination path: /home/victoria/original_project/PythonServer/before_images/
+INFO:dropbox:Request to files/list_folder
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/list_folder HTTP/1.1" 200 None
+INFO:root:######## Starting download of 4 files :
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3869413
+INFO:root:Successfuly downloaded image 1 out of 4
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3413820
+INFO:root:Successfuly downloaded image 2 out of 4
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3725221
+INFO:root:Successfuly downloaded image 3 out of 4
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 7610209
+INFO:root:Successfuly downloaded image 4 out of 4
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-28 21:08:12
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-28 21:30:26
+INFO:root:############  Attempting pull images from Dropbox:
+INFO:root:source path: /Photos_Before_Processing/
+INFO:root:destination path: /home/victoria/original_project/PythonServer/before_images/
+INFO:dropbox:Request to files/list_folder
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/list_folder HTTP/1.1" 200 None
+INFO:root:######## Starting download of 2 files :
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3869412
+INFO:root:Successfuly downloaded image 1 out of 2
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3413819
+INFO:root:Successfuly downloaded image 2 out of 2
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-28 22:01:32
+INFO:root:############  Attempting pull images from Dropbox:
+INFO:root:source path: /Photos_Before_Processing/
+INFO:root:destination path: /home/victoria/original_project/PythonServer/before_images/
+INFO:dropbox:Request to files/list_folder
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/list_folder HTTP/1.1" 200 None
+INFO:root:######## Starting download of 6 files :
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3413819
+INFO:root:Successfuly downloaded image 1 out of 6
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3869412
+INFO:root:Successfuly downloaded image 2 out of 6
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 8343771
+INFO:root:Successfuly downloaded image 3 out of 6
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3725220
+INFO:root:Successfuly downloaded image 4 out of 6
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 3413819
+INFO:root:Successfuly downloaded image 5 out of 6
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:dropbox:Request to files/download
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/download HTTP/1.1" 200 7610208
+INFO:root:Successfuly downloaded image 6 out of 6
+INFO:dropbox:Request to files/delete_v2
+DEBUG:urllib3.connectionpool:https://api.dropboxapi.com:443 "POST /2/files/delete_v2 HTTP/1.1" 200 None
+INFO:root:noise = 4.613804416474082
+INFO:root:blur = 1943.947001846341
+INFO:root:exposure = 1
+INFO:root:quality = 0.7431945587029024
+INFO:root:noise = 1.553028799652944
+INFO:root:blur = 904.7039126835326
+INFO:root:exposure = 1
+INFO:root:quality = 0.624609997878501
+ERROR:root:Couldn't process image number 1 : Exempi function failure ("bad object").
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-29 07:18:40
+INFO:root:noise = 4.613804416474082
+INFO:root:blur = 1943.947001846341
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-29 07:22:36
+ERROR:root:Couldn't process image number 0 : 'NoneType' object has no attribute '__getitem__'
+INFO:root:noise = 3.0295713151799264
+INFO:root:blur = 1161.8770371183823
+INFO:root:exposure = 1
+INFO:root:quality = 0.7170859461692718
+INFO:root:noise = 1.9793102449273852
+INFO:root:blur = 833.9064600763215
+INFO:root:exposure = 1
+INFO:root:quality = 0.6629242859488259
+INFO:root:noise = 1.553028799652944
+INFO:root:blur = 904.7039126835326
+INFO:root:exposure = 1
+INFO:root:quality = 0.624609997878501
+INFO:root:############Attempting push images to Dropbox:
+INFO:root:source path: /home/victoria/original_project/PythonServer/after_images/
+INFO:root:destination path: https://api.cloudinary.com/v1_1/kids-albums/images_for_albums/
+INFO:root:######## Starting upload of 10 files :
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudinary.com:443
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 1 out of 10
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 661
+INFO:root:Successfuly uploaded image 2 out of 10
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 695
+INFO:root:Successfuly uploaded image 3 out of 10
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 659
+INFO:root:Successfuly uploaded image 4 out of 10
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 None
+INFO:root:Successfuly uploaded image 5 out of 10
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 661
+INFO:root:Successfuly uploaded image 6 out of 10
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 661
+INFO:root:Successfuly uploaded image 7 out of 10
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 661
+INFO:root:Successfuly uploaded image 8 out of 10
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 661
+INFO:root:Successfuly uploaded image 9 out of 10
+DEBUG:urllib3.connectionpool:https://api.cloudinary.com:443 "POST /v1_1/kids-albums/image/upload HTTP/1.1" 200 661
+INFO:root:Successfuly uploaded image 10 out of 10
+INFO:root:######################## Session finished at 2019-06-29 07:35:27
+INFO:root:
+################################################################
+
+
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-29 17:28:25
+INFO:root:================== ESTIMATING IMAGE QUALITY =====================
+INFO:root:noise = 1.2460612683070067
+INFO:root:blur = 416.01834454221483
+INFO:root:exposure = 1
+INFO:root:quality = 0.5895499612281203
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-29 17:31:07
+INFO:root:noise = 1.2460612683070067
+INFO:root:blur = 416.01834454221483
+INFO:root:exposure = 1
+INFO:root:quality = 0.5895499612281203
+INFO:root:noise = 1.1056319739055256
+INFO:root:blur = 115.61356020604525
+INFO:root:exposure = 1
+INFO:root:quality = 0.57134605948793
+INFO:root:noise = 0.5355636781301569
+INFO:root:blur = 52.603538143393855
+INFO:root:exposure = 1
+INFO:root:quality = 0.41613008704122284
+INFO:root:noise = 4.163278244001304
+INFO:root:blur = 1262.1953183284256
+INFO:root:exposure = 1
+INFO:root:quality = 0.7392366643458836
+INFO:root:noise = 0.6834344332145368
+INFO:root:blur = 37.05094357896472
+INFO:root:exposure = 1
+INFO:root:quality = 0.5225119252314242
+INFO:root:noise = 6.185058694145611
+INFO:root:blur = 1451.9426577013191
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-29 18:13:57
+INFO:root:noise = 0.9184282176440057
+INFO:root:blur = 195.51853802392682
+INFO:root:exposure = 1
+INFO:root:quality = 0.6915722017993875
+INFO:root:
+
+################################################################
+
+INFO:root:######################## Session started at 2019-06-29 18:15:30
+INFO:root:noise = 0.9184282176440057
+INFO:root:blur = 195.51853802392682
+INFO:root:exposure = 1
+INFO:root:quality = 0.6915722017993875
+INFO:root:noise = 0.7588830518765375
+INFO:root:blur = 107.3536870763458
+INFO:root:exposure = 1
+INFO:root:quality = 0.5767915070026477
+INFO:root:noise = 0.7143278535781892
+INFO:root:blur = 102.31583650089556
+INFO:root:exposure = 1
+INFO:root:quality = 0.544737407507433
+INFO:root:noise = 0.5469180721725088
+INFO:root:blur = 86.3390053385155
+INFO:root:exposure = 1
+INFO:root:quality = 0.4242987158486702
+INFO:root:noise = 0.430768491527895
+INFO:root:blur = 22.018590277233134
+INFO:root:exposure = 1
+INFO:root:quality = 0.340737866345562
+INFO:root:noise = 0.504314988344514
+INFO:root:blur = 20.707351254084763
+INFO:root:exposure = 1
+INFO:root:quality = 0.39364901477565517
+INFO:root:noise = 0.48928364463550644
+INFO:root:blur = 52.09437323301279
+INFO:root:exposure = 1
+INFO:root:quality = 0.38283509891557493
+INFO:root:noise = 0.5152558294415297
+INFO:root:blur = 57.91745872905845
+INFO:root:exposure = 1
+INFO:root:quality = 0.4015201239558795
+INFO:root:noise = 0.40722563642691545
+INFO:root:blur = 12.953879196946787
+INFO:root:exposure = 1
+INFO:root:quality = 0.3237995643482433
+INFO:root:noise = 0.7982144009200456
+INFO:root:blur = 114.22803650562943
+INFO:root:exposure = 1
+INFO:root:quality = 0.6050874415663225
+INFO:root:noise = 1.300757736437803
+INFO:root:blur = 389.5908613055773
+INFO:root:exposure = 1
+INFO:root:quality = 0.5962731108494559
+INFO:root:noise = 1.1192011038915297
+INFO:root:blur = 312.78972272921897
+INFO:root:exposure = 1
+INFO:root:quality = 0.5731637713770977
+INFO:root:noise = 0.3939342889255529
+INFO:root:blur = 15.954829278066727
+INFO:root:exposure = 1
+INFO:root:quality = 0.3142383913642383
+INFO:root:noise = 0.4427294453389305
+INFO:root:blur = 47.907934035565496
+INFO:root:exposure = 1
+INFO:root:quality = 0.34934286920580804
+INFO:root:noise = 0.39308539396773073
+INFO:root:blur = 21.3254031344043
+INFO:root:exposure = 1
+INFO:root:quality = 0.3136277241078367
+INFO:root:noise = 0.49011938584894027
+INFO:root:blur = 40.59389420669784
+INFO:root:exposure = 1
+INFO:root:quality = 0.38343635158711004
+INFO:root:noise = 0.5106294863944215
+INFO:root:blur = 55.42927954541457
+INFO:root:exposure = 1
+INFO:root:quality = 0.398191819605442
+INFO:root:noise = 0.6656791277284321
+INFO:root:blur = 117.30414292810988
+INFO:root:exposure = 1
+INFO:root:quality = 0.509738324162284
+INFO:root:noise = 0.44680418498026264
+INFO:root:blur = 39.16835544581857
+INFO:root:exposure = 1
+INFO:root:quality = 0.35227433657367296
+INFO:root:noise = 0.8713343141405913
+INFO:root:blur = 184.64180941355465
+INFO:root:exposure = 1
+INFO:root:quality = 0.6576916956818231
+INFO:root:noise = 0.7543093431494378
+INFO:root:blur = 119.51165009387125
+INFO:root:exposure = 1
+INFO:root:quality = 0.5735010690694825
+INFO:root:noise = 0.8726344126864115
+INFO:root:blur = 166.26582072364607
+INFO:root:exposure = 1
+INFO:root:quality = 0.6586270183766578
+INFO:root:noise = 0.5467462488919713
+INFO:root:blur = 26.459682459949907
+INFO:root:exposure = 1
+INFO:root:quality = 0.42417510197619523
+INFO:root:noise = 0.4709664640735441
+INFO:root:blur = 24.405576223303125
+INFO:root:exposure = 1
+INFO:root:quality = 0.36965727116175623
+INFO:root:noise = 0.3593047220634236
+INFO:root:blur = 10.103097553226043
+INFO:root:exposure = 1
+INFO:root:quality = 0.2893088345277206
+INFO:root:noise = 0.3685700548064026
+INFO:root:blur = 10.277002638393851
+INFO:root:exposure = 1
+INFO:root:quality = 0.2959769744544741
+INFO:root:noise = 0.7258839288292294
+INFO:root:blur = 104.55843161434377
+INFO:root:exposure = 1
+INFO:root:quality = 0.5530511307096203
+INFO:root:noise = 0.7200416779098595
+INFO:root:blur = 111.94502735512647
+INFO:root:exposure = 1
+INFO:root:quality = 0.5488480724942464
+INFO:root:noise = 0.690922113894015
+INFO:root:blur = 117.1827677100537
+INFO:root:exposure = 1
+INFO:root:quality = 0.5278987458641424
+INFO:root:noise = 0.4717738519631432
+INFO:root:blur = 34.27780505677896
+INFO:root:exposure = 1
+INFO:root:quality = 0.37023812576998927
+INFO:root:noise = 0.4501541149202702
+INFO:root:blur = 23.519012590534526
+INFO:root:exposure = 1
+INFO:root:quality = 0.35468435808622223
+INFO:root:noise = 0.5077195028151744
+INFO:root:blur = 67.14564634691466
+INFO:root:exposure = 1
+INFO:root:quality = 0.3960983062390772
+INFO:root:noise = 1.4517172645721972
+INFO:root:blur = 253.18746851919795
+INFO:root:exposure = 1
+INFO:root:quality = 0.6137551977287082
+INFO:root:######################## Session finished at 2019-06-29 18:30:34
+INFO:root:
+################################################################
+
+
